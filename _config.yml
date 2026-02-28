@@ -8,6 +8,11 @@ url: "https://sooyablg.sooyadev.com"
 
 author: "Hyunsoo"
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 header_pages:
   - pages/about.md
   - pages/launch.md
