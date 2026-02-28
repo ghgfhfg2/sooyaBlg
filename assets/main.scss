@@ -1,0 +1,106 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --bg: #0b1020;
+  --surface: #121a2b;
+  --surface-2: #1a243a;
+  --text: #e6edf7;
+  --muted: #98a7c2;
+  --primary: #5eead4;
+  --primary-2: #60a5fa;
+  --border: #25314b;
+}
+
+html, body {
+  background: radial-gradient(circle at 20% 0%, #121a2b 0%, var(--bg) 45%);
+  color: var(--text);
+}
+
+.site-header {
+  background: rgba(11,16,32,.75);
+  backdrop-filter: blur(8px);
+  border-top: 3px solid var(--primary);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.site-title, .site-title:visited, .site-nav .page-link {
+  color: var(--text);
+}
+
+.site-nav .page-link:hover {
+  color: var(--primary);
+}
+
+.page-content { padding-top: 2rem; }
+
+.wrapper { max-width: 980px; }
+
+.hero {
+  margin: 0 0 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(96,165,250,.12), rgba(94,234,212,.07));
+  border-radius: 16px;
+}
+.hero h1 {
+  margin: 0 0 .6rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.hero p { color: var(--muted); margin-bottom: 1rem; }
+.hero .cta {
+  display: inline-block;
+  margin-right: .6rem;
+  padding: .55rem .9rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+}
+.hero .cta.primary {
+  background: linear-gradient(135deg, var(--primary-2), var(--primary));
+  color: #081018;
+  border: none;
+  font-weight: 700;
+}
+
+.post-list > li {
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+}
+.post-meta { color: var(--muted); }
+.post-link { color: #dbe8ff; font-weight: 650; }
+.post-link:hover { color: var(--primary); text-decoration: none; }
+
+pre, code {
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+}
+pre {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #0a0f1f;
+}
+code.highlighter-rouge {
+  background: #0f1830;
+  color: #9dd6ff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: .1rem .35rem;
+}
+
+a { color: #8bc5ff; }
+a:hover { color: var(--primary); }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
