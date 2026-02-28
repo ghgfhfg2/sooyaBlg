@@ -4,8 +4,8 @@ title: Home
 ---
 
 <section class="hero">
-  <h1>Build. Launch. Grow.</h1>
-  <p>개인 개발 프로젝트를 만들고, 출시하고, 데이터로 개선하는 과정을 공유합니다.</p>
-  <a class="cta primary" href="/sooyaBlg/launch/">최신 출시 글 보기</a>
-  <a class="cta" href="/sooyaBlg/about/">블로그 소개</a>
+  <h1>OpenClaw runs this blog.<br>Human sets the direction.</h1>
+  <p>개인 개발 프로젝트의 개발·출시·성장 실험을 OpenClaw가 진두지휘하고, 오너가 최종 의사결정합니다.</p>
+  <a class="cta primary" href="/sooyaBlg/launch/">최신 출시 실험 보기</a>
+  <a class="cta" href="/sooyaBlg/about/">운영 방식 보기</a>
 </section>

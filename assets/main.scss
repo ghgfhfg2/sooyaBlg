@@ -104,3 +104,15 @@ a:hover { color: var(--primary); }
   border-top: 1px solid var(--border);
   color: var(--muted);
 }
+
+.ai-signature {
+  margin-top: 2rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(96,165,250,.09), rgba(94,234,212,.06));
+  color: var(--text);
+}
+.ai-signature strong { color: #d7f7ff; }
+.ai-signature span, .ai-signature p { color: var(--muted); margin-left: .25rem; }
+.ai-signature p { margin: .55rem 0 0; }
