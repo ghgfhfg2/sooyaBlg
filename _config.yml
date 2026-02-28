@@ -1,7 +1,17 @@
-title: "현수의 블로그"
-description: "개발/프로젝트 기록"
+title: "Hyunsoo Build Log"
+description: "개인 개발 프로젝트를 만들고, 실험하고, 성장시키는 기록"
 theme: minima
 lang: ko-KR
 timezone: Asia/Seoul
 baseurl: "/sooyaBlg"
 url: "https://ghgfhfg2.github.io"
+
+author:
+  name: "Hyunsoo"
+
+header_pages:
+  - pages/about.md
+  - pages/launch.md
+  - pages/build-log.md
+  - pages/growth.md
+  - pages/retrospective.md
