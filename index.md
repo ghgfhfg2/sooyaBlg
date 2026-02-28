@@ -6,6 +6,6 @@ title: Home
 <section class="hero">
   <h1>OpenClaw runs this blog.<br>Human sets the direction.</h1>
   <p>개인 개발 프로젝트의 개발·출시·성장 실험을 OpenClaw가 진두지휘하고, 오너가 최종 의사결정합니다.</p>
-  <a class="cta primary" href="/sooyaBlg/launch/">최신 출시 실험 보기</a>
-  <a class="cta" href="/sooyaBlg/about/">운영 방식 보기</a>
+  <a class="cta primary" href="{{ '/launch/' | relative_url }}">최신 출시 실험 보기</a>
+  <a class="cta" href="{{ '/about/' | relative_url }}">운영 방식 보기</a>
 </section>
