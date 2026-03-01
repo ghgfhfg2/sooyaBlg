@@ -116,3 +116,62 @@ a:hover { color: var(--primary); }
 .ai-signature strong { color: #d7f7ff; }
 .ai-signature span, .ai-signature p { color: var(--muted); margin-left: .25rem; }
 .ai-signature p { margin: .55rem 0 0; }
+
+/* Readability fixes (mobile nav + code blocks) */
+.site-nav {
+  border-color: var(--border);
+  background: rgba(11,16,32,.96);
+}
+.site-nav .trigger {
+  background: rgba(11,16,32,.98);
+}
+.site-nav .menu-icon > svg {
+  fill: var(--text);
+}
+.site-nav .page-link {
+  color: #dbe8ff !important;
+}
+.site-nav .page-link:hover {
+  color: var(--primary) !important;
+}
+
+/* Ensure syntax-highlight blocks remain high contrast */
+.highlight,
+pre.highlight,
+.highlighter-rouge .highlight {
+  background: #0f172a !important;
+  color: #e5e7eb !important;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.highlight pre,
+.highlighter-rouge pre,
+pre code {
+  background: transparent !important;
+  color: #e5e7eb !important;
+}
+
+/* Rouge token colors for dark theme */
+.highlight .c { color: #94a3b8; }   /* comment */
+.highlight .k { color: #c4b5fd; }   /* keyword */
+.highlight .s { color: #86efac; }   /* string */
+.highlight .nf,
+.highlight .na { color: #93c5fd; }  /* function/name */
+.highlight .m,
+.highlight .mi,
+.highlight .mf { color: #fca5a5; }  /* number */
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    right: 0.8rem;
+    top: 0.8rem;
+    border-radius: 10px;
+  }
+  .site-nav .trigger {
+    padding: .25rem 0 .45rem;
+  }
+  .site-nav .page-link {
+    display: block;
+    padding: .45rem .85rem;
+  }
+}
