@@ -2,6 +2,14 @@
 layout: post
 title: "기술 문서 예시에 HTTP 타임아웃을 명시해야 검색 신뢰도가 올라가는 이유"
 date: 2026-03-05 10:00:00 +0900
+lang: ko
+translation_key: http-request-timeout-and-fail-fast-guide
+permalink: /development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+alternates:
+  ko: /development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  en: /en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  ja: /ja/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  x_default: /development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
 categories: [development, blog, seo]
 tags: [기술블로그, seo, 신뢰도, 타임아웃, 장애예방]
 description: "curl과 API 호출 예시에 타임아웃과 실패 처리 옵션을 함께 적으면 재현 실패를 줄이고, 검색 유입 독자의 신뢰를 높일 수 있습니다."
