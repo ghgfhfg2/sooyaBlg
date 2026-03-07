@@ -2,6 +2,14 @@
 layout: post
 title: "개발 가이드 글에서 쉘 명령을 안전하게 제시하는 방법"
 date: 2026-03-03 10:00:00 +0900
+lang: ko
+translation_key: shell-command-safety-context-for-dev-guides
+permalink: /development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html
+alternates:
+  ko: /development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html
+  en: /en/development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html
+  ja: /ja/development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html
+  x_default: /development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html
 categories: [development, blog, seo]
 tags: [기술블로그, seo, 신뢰도, 쉘명령, 운영가이드]
 description: "복사-실행 가능한 쉘 명령을 제공할 때 발생하는 신뢰도 문제를 줄이기 위해, 전제 조건·영향 범위·검증 절차를 함께 작성하는 실무 기준을 정리합니다."

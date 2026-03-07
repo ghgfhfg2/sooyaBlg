@@ -2,6 +2,14 @@
 layout: post
 title: "개발 문서에서 의존성 버전을 명시해야 검색 신뢰도가 올라가는 이유"
 date: 2026-03-04 20:00:00 +0900
+lang: ko
+translation_key: dependency-version-pinning-guide-for-seo-trust
+permalink: /development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html
+alternates:
+  ko: /development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html
+  en: /en/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html
+  ja: /ja/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html
+  x_default: /development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html
 categories: [development, blog, seo]
 tags: [기술블로그, seo, 신뢰도, 의존성관리, 버전고정]
 description: "설치 명령과 코드 예시에 의존성 버전을 함께 기록하면 재현 실패를 줄이고, 검색 유입 독자가 문서를 신뢰하기 쉬워집니다."
