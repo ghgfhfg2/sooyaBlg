@@ -2,6 +2,14 @@
 layout: post
 title: "npm ci와 package-lock.json을 함께 써야 기술 글 신뢰도가 올라가는 이유"
 date: 2026-03-06 10:00:00 +0900
+lang: ko
+translation_key: npm-ci-lockfile-reproducible-build-guide
+permalink: /development/blog/seo/2026/03/06/npm-ci-lockfile-reproducible-build-guide.html
+alternates:
+  ko: /development/blog/seo/2026/03/06/npm-ci-lockfile-reproducible-build-guide.html
+  en: /en/development/blog/seo/2026/03/06/npm-ci-lockfile-reproducible-build-guide.html
+  ja: /ja/development/blog/seo/2026/03/06/npm-ci-lockfile-reproducible-build-guide.html
+  x_default: /development/blog/seo/2026/03/06/npm-ci-lockfile-reproducible-build-guide.html
 categories: [development, blog, seo]
 tags: [기술블로그, seo, 신뢰도, npm, lockfile]
 description: "Node.js 설치 예시에서 npm ci와 package-lock.json 기준을 함께 제시하면 환경 차이로 인한 재현 실패를 줄이고, 검색 유입 독자의 신뢰를 높일 수 있습니다."

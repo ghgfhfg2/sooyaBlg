@@ -1,0 +1,12 @@
+{%- if page.alternates -%}
+  {%- if page.alternates.ko -%}
+<link rel="alternate" hreflang="ko" href="{{ site.url }}{{ page.alternates.ko | relative_url }}">
+  {%- endif -%}
+  {%- if page.alternates.en -%}
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.alternates.en | relative_url }}">
+  {%- endif -%}
+  {%- if page.alternates.ja -%}
+<link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.alternates.ja | relative_url }}">
+  {%- endif -%}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.alternates.x_default | default: page.alternates.ko | relative_url }}">
+{%- endif -%}
