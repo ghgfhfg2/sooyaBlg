@@ -4,12 +4,12 @@ title: "Why HTTP Timeout and Fail-Fast Options Improve Technical Content Credibi
 date: 2026-03-05 10:00:00 +0900
 lang: en
 translation_key: http-request-timeout-and-fail-fast-guide
-permalink: /en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+permalink: /en/en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
 alternates:
-  ko: /development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
-  en: /en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
-  ja: /ja/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
-  x_default: /development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  ko: /en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  en: /en/en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  ja: /ja/en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
+  x_default: /en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html
 categories: [development, blog, seo]
 tags: [technical-writing, seo, trust, timeout, reliability]
 description: "Adding timeout and failure-handling options to curl and API examples prevents hanging commands, improves reproducibility, and strengthens trust from search readers."
@@ -72,5 +72,5 @@ Search trust for technical content grows when your examples control failure expl
 
 ## Related reading
 
-- [Shell command safety context for developer guides](/development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html)
-- [Dependency version pinning for SEO trust](/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)
+- [Shell command safety context for developer guides](/en/development/blog/seo/2026/03/03/shell-command-safety-context-for-dev-guides.html)
+- [Dependency version pinning for SEO trust](/en/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)

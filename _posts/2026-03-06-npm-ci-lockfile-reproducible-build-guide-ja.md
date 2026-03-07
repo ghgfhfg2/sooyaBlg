@@ -72,5 +72,5 @@ npm run build
 
 ## 関連記事
 
-- [Dependency version pinning for SEO trust](/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)
-- [HTTP timeout and fail-fast guide](/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html)
+- [Dependency version pinning for SEO trust](/ja/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)
+- [HTTP timeout and fail-fast guide](/ja/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html)

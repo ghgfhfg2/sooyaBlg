@@ -68,5 +68,5 @@ If you want technical blog posts that keep ranking and keep trust, make reproduc
 
 ## Related reading
 
-- [Dependency version pinning for SEO trust](/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)
-- [HTTP timeout and fail-fast guide](/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html)
+- [Dependency version pinning for SEO trust](/en/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)
+- [HTTP timeout and fail-fast guide](/en/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html)
