@@ -13,7 +13,7 @@ tags: [기술블로그, seo, nodejs, memory-leak, heap-snapshot, clinicjs, obser
 description: "Node.js 서비스에서 반복적으로 OOM이 발생할 때, heap snapshot과 clinic.js를 이용해 메모리 누수를 재현·진단·수정하는 실전 절차를 정리합니다. 프로덕션에서 안전하게 적용할 체크리스트도 함께 제공합니다."
 ---
 
-## 문제: CPU는 안정적인데 왜 Node.js만 주기적으로 OOM이 날까?
+## 문제: CPU는 안정적인데 왜 Node.js만 주기적으로 OOM이 날까
 
 실서비스에서 자주 보는 장애 패턴이 있습니다.
 트래픽은 평소와 비슷한데, 몇 시간~며칠 주기로 컨테이너가 OOMKilled 되는 경우입니다.

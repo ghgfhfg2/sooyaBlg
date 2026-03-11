@@ -13,7 +13,7 @@ tags: [기술블로그, seo, kubernetes, readiness, liveness, 배포안정성]
 description: "Kubernetes에서 Readiness Probe와 Liveness Probe를 분리해 설정하면 롤링 배포 중 트래픽 오류를 줄이고, 장애 복구 판단 기준을 명확히 해 운영 신뢰도를 높일 수 있습니다."
 ---
 
-## 문제: 배포는 성공했는데 사용자 오류가 늘어나는 이유
+## 문제: 배포는 성공했는데 왜 사용자 오류가 늘어날까
 
 Kubernetes 기반 서비스에서 자주 보는 장애 패턴이 있습니다.
 파드가 `Running` 상태로 보이는데도 배포 직후 5xx가 급증하는 상황입니다.
