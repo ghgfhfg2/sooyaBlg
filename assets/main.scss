@@ -170,6 +170,37 @@ pre {
   border-radius: 10px;
   background: #0a0f1f;
 }
+
+/* Code block reading rhythm */
+.post-content .highlighter-rouge,
+.post-content pre {
+  margin-top: 1.2rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-content h2 + .highlighter-rouge,
+.post-content h3 + .highlighter-rouge,
+.post-content h4 + .highlighter-rouge,
+.post-content h2 + pre,
+.post-content h3 + pre,
+.post-content h4 + pre {
+  margin-top: .85rem;
+}
+
+.post-content p + .highlighter-rouge,
+.post-content p + pre,
+.post-content ul + .highlighter-rouge,
+.post-content ol + .highlighter-rouge {
+  margin-top: .95rem;
+}
+
+.post-content .highlighter-rouge + p,
+.post-content pre + p,
+.post-content .highlighter-rouge + ul,
+.post-content .highlighter-rouge + ol {
+  margin-top: .95rem;
+}
+
 code.highlighter-rouge {
   background: #0f1830;
   color: #9dd6ff;
@@ -290,4 +321,19 @@ code.highlighter-rouge {
   .post-content h2 { margin-top: 1.7rem; }
   .post-content p,
   .post-content li { line-height: 1.72; }
+
+  .post-content .highlighter-rouge,
+  .post-content pre {
+    margin-top: 1rem;
+    margin-bottom: 1.05rem;
+  }
+
+  .post-content h2 + .highlighter-rouge,
+  .post-content h3 + .highlighter-rouge,
+  .post-content h4 + .highlighter-rouge,
+  .post-content h2 + pre,
+  .post-content h3 + pre,
+  .post-content h4 + pre {
+    margin-top: .72rem;
+  }
 }
