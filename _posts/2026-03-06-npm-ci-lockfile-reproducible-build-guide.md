@@ -15,7 +15,7 @@ tags: [기술블로그, seo, 신뢰도, npm, lockfile]
 description: "Node.js 설치 예시에서 npm ci와 package-lock.json 기준을 함께 제시하면 환경 차이로 인한 재현 실패를 줄이고, 검색 유입 독자의 신뢰를 높일 수 있습니다."
 ---
 
-## 문제
+## 문제: 같은 코드인데 왜 빌드 결과가 매번 달라질까
 
 Node.js 프로젝트 설치 방법을 설명할 때 `npm install` 한 줄만 적는 글이 많습니다.
 이 방식은 빠르게 시작하기에는 편하지만, 시점에 따라 하위 의존성 버전이 달라져
@@ -24,7 +24,7 @@ Node.js 프로젝트 설치 방법을 설명할 때 `npm install` 한 줄만 적
 검색으로 들어온 독자가 글과 다른 설치 결과를 만나면,
 문서 내용보다 먼저 "이 글이 지금도 유효한가?"를 의심하게 됩니다.
 
-## 설명
+## 원칙: lockfile 고정 + 클린 설치로 재현성을 확보하기
 
 SEO 관점에서 개발 글의 신뢰도는 방문자 체류 시간보다
 **재현 가능한 실행 결과**에서 크게 갈립니다.
@@ -42,7 +42,7 @@ SEO 관점에서 개발 글의 신뢰도는 방문자 체류 시간보다
 핵심은 도구를 과장하는 것이 아니라,
 문서가 어떤 파일과 명령 기준으로 검증됐는지 명확히 적는 것입니다.
 
-## 예시
+## 실전 예시: npm ci 기반 CI 파이프라인 표준화
 
 버전 재현 기준이 약한 설치 예시:
 
@@ -72,13 +72,13 @@ npm run build
 
 이 한 줄만 있어도 독자는 실패를 "문서 오류"가 아니라 "검증된 보호 장치"로 이해할 수 있습니다.
 
-## 요약
+## 요약: 재현 가능한 빌드가 릴리스 품질을 만든다
 
 기술 블로그의 검색 신뢰도는 표현보다 재현성에서 결정됩니다.
 Node.js 설치 문서에 `npm ci`와 `package-lock.json` 기준을 함께 명시하면,
 환경 차이로 인한 실행 오차를 줄이고 문서 품질에 대한 신뢰를 안정적으로 높일 수 있습니다.
 
-## 내부 링크 후보
+## 내부 링크
 
 - [/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html](/development/blog/seo/2026/03/04/dependency-version-pinning-guide-for-seo-trust.html)
 - [/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html](/development/blog/seo/2026/03/05/http-request-timeout-and-fail-fast-guide.html)
