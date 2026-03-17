@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="home">
+  {{ content }}
+
+  {% assign posts = paginator.posts | default: site.posts %}
+  {% if posts and posts.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+      {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if paginator and paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="페이지 이동">
+    {% if paginator.previous_page %}
+      <a class="pagination-link" href="{{ paginator.previous_page_path | relative_url }}">← 이전</a>
+    {% else %}
+      <span class="pagination-link disabled">← 이전</span>
+    {% endif %}
+
+    <span class="pagination-current">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+      <a class="pagination-link" href="{{ paginator.next_page_path | relative_url }}">다음 →</a>
+    {% else %}
+      <span class="pagination-link disabled">다음 →</span>
+    {% endif %}
+  </nav>
+  {% endif %}
+</div>

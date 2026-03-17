@@ -303,6 +303,42 @@ code.highlighter-rouge {
 .highlight .mf,
 .highlight .mh { color: #fca5a5; }                        /* number */
 
+.pagination {
+  margin-top: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+}
+
+.pagination-link,
+.pagination-current {
+  display: inline-block;
+  padding: .45rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(255,255,255,.02);
+}
+
+.pagination-link {
+  color: #dbe8ff;
+  text-decoration: none;
+}
+
+.pagination-link:hover {
+  color: var(--primary);
+  border-color: var(--primary-2);
+}
+
+.pagination-link.disabled {
+  color: var(--muted);
+  opacity: .65;
+}
+
+.pagination-current {
+  color: var(--muted);
+}
+
 @media screen and (max-width: 600px) {
   .site-nav {
     right: 0.8rem;

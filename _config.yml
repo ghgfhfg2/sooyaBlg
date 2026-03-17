@@ -12,6 +12,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page/:num/"
+  title: ":title - :num"
+  sort_reverse: true
 
 header_pages:
   - pages/about.md
