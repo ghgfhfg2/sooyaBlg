@@ -217,7 +217,7 @@ async function readConfig(fileName) {
 }
 
 await assert.rejects(
-  () => readConfig('../secret.json'),
+  () => readConfig('../private-config.json'),
   (error) => {
     assert.equal(error.code, 'CONFIG_FILE_BLOCKED');
     assert.equal(error.safeToShow, true);
